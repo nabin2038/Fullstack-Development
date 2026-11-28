@@ -3,13 +3,158 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title>Learnit</title>
+  <title>Learnit - Learning Platform</title>
+  <link rel="stylesheet" href="style1.css">
 </head>
 <body>
-	<header class="site-header">
-		<nav>
-			
-		</nav>
-	</header>
+
+  <header class="site-header">
+    <nav>
+      <a href="#" class="logo">Learnit - <span>Learning Platform</span></a>
+
+      <ul class="nav-links">
+        <li><a href="#courses">Courses</a></li>
+        <li><a href="#why-learnit">Why-learnit</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#media">Media</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="content">
+
+      <section class="hero">
+        <img src="images/logo.png" alt="Learnit logo">
+        <div class="hero-text">
+          <p class="eyebrow">Free learning / Kathmandu</p>
+          <h1>Learnit - Learning Platform</h1>
+          <p>Courses, study materials, videos and podcasts for students
+             who want to learn web development step by step.</p>
+          <a href="#courses" class="button">Browse courses</a>
+        </div>
+      </section>
+
+      <section class="gallery-section" id="courses">
+        <h2>Popular courses</h2>
+
+        <div class="gallery">
+
+          <article class="card feature">
+            <img src="images/html.jpg" alt="HTML course illustration">
+            <div class="card-body">
+              <p class="card-meta"><span>01</span>Front-End Stack</p>
+              <h3>Frontend Basics</h3>
+              <p>Learn how to build the structure of a web page using
+                 headings, paragraphs, lists, links and images. Add colors,
+                 spacing and layouts to your pages &amp; make your websites
+                 interactive.</p>
+              <a href="#" class="card-link">Read more</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="images/php.png" alt="PHP course illustration">
+            <div class="card-body">
+              <p class="card-meta"><span>02</span>Backend Stack</p>
+              <h3>PHP</h3>
+              <p>Build the server side of websites and connect them to databases.</p>
+              <a href="#" class="card-link">Read more</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="images/python.jpg" alt="Python course illustration">
+            <div class="card-body">
+              <h3>Python</h3>
+              <p>To build the behind-the-scenes logic of websites, automate
+                 repetitive tasks, and analyze data.</p>
+              <a href="#" class="card-link">Read more</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="images/java.jpg" alt="Java course illustration">
+            <div class="card-body">
+              <h3>Java</h3>
+              <p>To create mobile applications for phones and tablets.</p>
+              <a href="#" class="card-link">Read more</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="images/buildweb.jpg" alt="Building a website project">
+            <div class="card-body">
+              <p class="card-meta">Project</p>
+              <h3>Build a Website</h3>
+              <p>Turn your skills into a real project: design the pages, add the logic and show your work.</p>
+              <a href="#" class="card-link">Read more</a>
+            </div>
+          </article>
+
+        </div>
+      </section>
+
+      <section class="gallery-section" id="why-learnit">
+        <h2>Why learn with Learnit?</h2>
+
+        <div class="benefits">
+          <article class="benefit">
+            <h3>Learn at your pace</h3>
+            <p>Study whenever you want, as many times as you need.</p>
+          </article>
+
+          <article class="benefit">
+            <h3>Step by step</h3>
+            <p>Start with the basics and build up to real projects.</p>
+          </article>
+
+          <article class="benefit">
+            <h3>Free for students</h3>
+            <p>All courses and materials cost nothing.</p>
+          </article>
+        </div>
+      </section>
+
+    </div>
+
+    <aside id="about">
+      <h2>About</h2>
+
+      <figure>
+        <img src="images/about.jpg" alt="Students learning together">
+        <figcaption>Learn at your own pace.</figcaption>
+      </figure>
+
+      <p>Learnit is a free platform that gives students access to
+         learning materials in one place.</p>
+
+      <h3>Announcements</h3>
+      <ul>
+        <li>New JavaScript course will be available soon.</li>
+        <li>Week 1 workshop is due this Friday.</li>
+        <li>Library is open late during exam week.</li>
+      </ul>
+
+      <h3 id="media">Video and audio</h3>
+      <video controls>
+        <source src="media/video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <audio controls>
+        <source src="media/audio.mp3" type="audio/mpeg">
+        Your browser does not support the audio tag.
+      </audio>
+    </aside>
+
+  </main>
+
+  <footer id="contact">
+    <p>Learnit - Learning Platform</p>
+    <p class="footer-mail"><a href="mailto:info@learnit.example">info@learnit.example</a></p>
+    <small>Built for 5CS045 Full Stack Web Development, Week 1.</small>
+  </footer>
+
 </body>
+</html>
